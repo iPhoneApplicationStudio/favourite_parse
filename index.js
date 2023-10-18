@@ -9,11 +9,11 @@ dotenv.config();
 // parse-dashboard --dev --appId myAppId --masterKey myMasterKey --serverURL "https://parse-examplee-4e3e5b772e84.herokuapp.com/parse" --appName test-parse-server
 export const config = {
   databaseURI:
-    process.env.DATABASE_URI || process.env.MONGODB_URI || 'mongodb+srv://farhanfaqir29963:rzg6yiotKv1kxVxJ@parse-server-db.48heilu.mongodb.net/?retryWrites=true&w=majority',
+    process.env.DATABASE_URI || process.env.MONGODB_URI || 'mongodb+srv://heroku_tz924nfv:Vdo4avdZRBZMsNvO@favorit-prod.b9xzy.mongodb.net/heroku_tz924nfv?',
   cloud: process.env.CLOUD_CODE_MAIN,
-  appId: process.env.APP_ID || 'myAppId',
-  masterKey: process.env.MASTER_KEY || 'myMasterKey', //Add your master key here. Keep it secret!
-  serverURL: process.env.SERVER_URL || 'https://parse-examplee-4e3e5b772e84.herokuapp.com/parse', // Don't forget to change to https if needed
+  appId: process.env.APP_ID || '0420151562',
+  masterKey: process.env.MASTER_KEY || 'yv0h5f51e4', //Add your master key here. Keep it secret!
+  serverURL: process.env.SERVER_URL || 'https://favorit-app.herokuapp.com/parse', // Don't forget to change to https if needed
   // serverURL: process.env.SERVER_URL || 'http://localhost:1337/parse', // Don't forget to change to https if needed
   liveQuery: {
     classNames: ['Posts', 'Comments'], // List of classes to support for query subscriptions
